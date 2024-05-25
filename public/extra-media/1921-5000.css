@@ -1,0 +1,78 @@
+@media screen and (min-width:1921px) and (max-width:5000px){
+
+    /* Home Part */
+    #home .home_overlay .description{
+        height: 100%;
+        width: 100%;
+        background: green;
+        padding-top: 125px;
+        padding-right: 15%;
+        /* padding-left: 25px; */
+    }    
+    
+    #home .home_overlay .description h4{
+        color: black;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    #home .home_overlay .description h2{
+        text-transform: capitalize;
+    }
+    #home .home_overlay .description p{
+        font-size: 20px;
+    }
+    
+    /* #home .home_overlay .formal_image img{
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: red;
+    } */
+    #home .home_overlay .description .social{
+        padding-bottom: 95px;
+        padding-top: 95px;
+    }
+    #home .home_overlay .description .social ul li{
+        display: inline-block;
+    }
+    #home .home_overlay .description .social ul li a i{
+        font-size: 29px;
+        color: white;
+        background: black;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border-radius: 5px;
+        transition: all linear 0.3s;
+    }
+    #home .home_overlay .description .social ul li a i:hover{
+        color: green;
+        background: white;
+        transform: translateY(-5px);
+    }
+    
+    
+    
+    
+    header #navigation .navbar-nav .nav-item a {
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    /* navigation part ends */ 
+    #home .home_overlay .formal{
+        position: relative;
+        background: purple;
+    }
+    #home .home_overlay .formal .formal_image {
+        position: absolute;
+        left: 0;
+        top: 3.4%;
+    }
+    
+}
